@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://images.unsplash.com/photo-1623266388136-8b5f066d6ede?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo img{
+    width: 5px 5px;
+    height: 50px;
+}
+
+
+.menu .barra ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .barra ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+} 
+
+
+.menu .barra ul li a:hover{
+    color: #ce9678;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 50px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-contenido h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-contenido p{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 250px;
+    margin-bottom: 50px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #ce967d;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #555555;
+}
+
+.hotel{
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+
+.hotel-contenido{
+    text-align: center;
+}
+
+.hotel-contenido h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #202022;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.hotel-grupo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.hotel-1{
+    padding: 0 40px;
+}
+
+.hotel-1 img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.hotel-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.hotel-1 p{
+    text-align: justify;
+}
+
+.lugares {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(https://mytrip2ecuador.com/wp-content/uploads/2022/02/banos-featured-810x456.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.lugares-contenido{
+    text-align: center;
+}
+
+.lugares-contenido h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;   
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.lugares-contenido p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+    text-align: justify;
+}
+
+.lugares-grupo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.lugares-1{
+    padding: 0 100px;
+}
+
+.lugares-1 img{
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.lugares-1 h3{
+    color: #e6e2e2;
+    font-size: 18px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-2{
+    background-image: url(https://comeamaviaja.com/wp-content/uploads/2021/06/excursiones-desde-quito_opt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(https://comeamaviaja.com/wp-content/uploads/2021/06/ban%CC%83os-ecuador_opt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-4{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-5{
+    background-image: url(https://comeamaviaja.com/wp-content/uploads/2021/06/la-casa-del-arbol-ban%CC%83os_opt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-6{
+    background-image: url(https://comeamaviaja.com/wp-content/uploads/2021/06/cascadas-mas-bonitas-ban%CC%83os-ecuador_opt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-7{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-8{
+    background-image: url(https://comeamaviaja.com/wp-content/uploads/2021/06/tungurahua_opt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-9{
+    background-image: url(https://trafficamerican.com/wp-content/uploads/2016/04/mirador-la-cruz-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-10{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-11{
+    background-image: url(https://comeamaviaja.com/wp-content/uploads/2021/06/que-ver-en-ban%CC%83os-de-agua-santa_opt.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 50px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+    text-align: justify;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.blog-1 p{
+    text-align: justify;
+}
+
+.final {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.final-contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h3{
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.contact a{
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+@media (max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .barra{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .barra ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .barra{
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-contenido {
+        padding: 100px 30px;
+        color: #ce967d;
+    }
+
+    .header-contenido p {
+        padding: 0;
+    }
+
+    .hotel{
+        padding: 30px;
+    }
+
+    .hotel-contenido h2{
+        padding: 0;
+    }
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .hotel-grupo{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .hotel-img{
+        display: none;
+    }
+
+    .lugares{
+        padding: 30px;
+    }
+
+    .lugares-contenido p{
+        padding: 0;
+    }
+
+    .lugares-grupo{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .lugares-1{
+        margin-bottom: 25px;
+    }
+
+    .general{
+        flex-direction: column;
+    }
+
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3, .general-4, .general-5,.general-6,.general-7,.general-8, .general-9,.general-10,.general-11{
+        display: none;
+    }
+
+    .blog{
+        padding: 30px;
+    }
+
+    .blog-contenido{
+        flex-direction: column;
+    }
+
+    .blog-1{
+        padding: 0;
+    }
+
+    .contact{
+        padding: 30px;
+    }
+
+    .final-contenido{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
